@@ -1,0 +1,17 @@
+torch
+torchvision
+torchaudio
+transformers
+sentence-transformers
+bert-score
+einops
+opencv-python
+matplotlib
+tqdm
+imageio
+rouge-score
+nltk
+scikit-learn
+seaborn
+pandas
+codecarbon

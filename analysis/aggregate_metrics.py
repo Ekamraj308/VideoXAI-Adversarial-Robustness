@@ -17,7 +17,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-OUT_ROOT = Path('/content/videoXAI_outputs')
+OUT_ROOT = Path(__file__).resolve().parent.parent / 'videoXAI_outputs'
 ATTACKS = ['vbad', 'fgsm', 'pgd', 'i2v']
 
 

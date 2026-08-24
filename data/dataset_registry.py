@@ -20,15 +20,15 @@ VIDEO_EXTS = [".mp4", ".webm", ".mkv", ".avi", ".mov"]
 # name -> (folder path, domain label)
 DATASET_ROOTS = {
     "Med-M3": {
-        "path": "/content/drive/MyDrive/datasets/med_m3",
+        "path": str(Path(__file__).resolve().parent.parent / "data_local" / "med_m3"),
         "domain": "medical",
     },
     "MedVideoCap-55K": {
-        "path": "/content/drive/MyDrive/datasets/medvideocap_55k",
+        "path": str(Path(__file__).resolve().parent.parent / "data_local" / "medvideocap_55k"),
         "domain": "medical",
     },
     "Kinetics-400": {
-        "path": "/content/drive/MyDrive/datasets/kinetics_400",
+        "path": str(Path(__file__).resolve().parent.parent / "data_local" / "kinetics_400"),
         "domain": "general",
     },
 }

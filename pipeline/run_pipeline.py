@@ -33,7 +33,7 @@ from metrics.metrics import (
     per_frame_semantic_damage, temporal_instability
 )
 
-OUT_ROOT = Path('/content/videoXAI_outputs')
+OUT_ROOT = Path(__file__).resolve().parent.parent / 'videoXAI_outputs'
 OUT_ROOT.mkdir(parents=True, exist_ok=True)
 
 # Epsilon (attack strength) settings for each attack
